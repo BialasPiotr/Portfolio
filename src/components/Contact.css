@@ -1,0 +1,48 @@
+#contact {
+  min-height: 60vh;
+  display: flex;
+  align-items: center;
+}
+
+#contact .container {
+  text-align: center;
+}
+
+.contact-eyebrow {
+  color: var(--accent);
+  font-size: 16px;
+  margin-bottom: 16px;
+  letter-spacing: 1px;
+}
+
+.contact-heading {
+  font-size: clamp(36px, 6vw, 56px);
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 24px;
+}
+
+.contact-desc {
+  color: var(--text-secondary);
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 540px;
+  margin: 0 auto 40px;
+}
+
+.say-hello-btn {
+  display: inline-block;
+  color: var(--accent);
+  border: 1px solid var(--accent);
+  padding: 16px 40px;
+  border-radius: 4px;
+  font-family: var(--font);
+  font-size: 14px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color 0.2s;
+}
+
+.say-hello-btn:hover {
+  background-color: var(--accent-dim);
+}

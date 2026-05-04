@@ -1,0 +1,85 @@
+.skill-group {
+  margin-bottom: 40px;
+}
+
+.skill-group-title {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--accent);
+  margin-bottom: 20px;
+}
+
+.skill-line {
+  display: inline-block;
+  width: 32px;
+  height: 2px;
+  background-color: var(--accent);
+  flex-shrink: 0;
+}
+
+.skill-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.skill-card {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  padding: 10px 18px;
+  font-size: 15px;
+  color: var(--text-primary);
+  transition: border-color 0.2s, background-color 0.2s;
+}
+
+.skill-card:hover {
+  border-color: var(--accent);
+  background-color: var(--accent-dim);
+}
+
+.skill-icon {
+  color: var(--accent);
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.competencies-section {
+  margin-top: 48px;
+  text-align: center;
+}
+
+.competencies-label {
+  font-size: 13px;
+  letter-spacing: 2px;
+  color: var(--accent);
+  margin-bottom: 16px;
+}
+
+.competencies-tags {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.competency-tag {
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  padding: 8px 20px;
+  font-size: 14px;
+  color: var(--text-secondary);
+  transition: border-color 0.2s, color 0.2s;
+}
+
+.competency-tag:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+}

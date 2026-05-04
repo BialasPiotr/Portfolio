@@ -1,0 +1,27 @@
+.about-intro {
+  font-size: 17px;
+  color: var(--text-primary);
+  text-align: center;
+  max-width: 780px;
+  margin: 0 auto 16px;
+  line-height: 1.8;
+}
+
+.hello {
+  color: var(--accent);
+  font-weight: 700;
+}
+
+#education {
+  scroll-margin-top: 100px;
+}
+
+.edu-icon {
+  margin-right: 8px;
+}
+
+.edu-desc {
+  margin-top: 4px;
+  font-style: italic;
+  color: var(--text-secondary);
+}

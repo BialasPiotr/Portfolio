@@ -1,0 +1,117 @@
+.timeline {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+
+.timeline-line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 1px;
+  background-color: var(--border);
+  transform: translateX(-50%);
+}
+
+.timeline-row {
+  display: grid;
+  grid-template-columns: 1fr 120px 1fr;
+  align-items: flex-start;
+  gap: 0;
+  position: relative;
+}
+
+/* Center column — dot + date */
+.timeline-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding-top: 16px;
+  z-index: 1;
+}
+
+.left .timeline-center {
+  flex-direction: column;
+}
+
+.right .timeline-center {
+  flex-direction: column-reverse;
+}
+
+.timeline-dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  border: 2px solid var(--accent);
+  background-color: var(--bg-primary);
+  flex-shrink: 0;
+}
+
+.timeline-date {
+  font-size: 13px;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  text-align: center;
+}
+
+/* Cards */
+.timeline-card {
+  background-color: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 24px;
+  transition: border-color 0.2s;
+}
+
+.timeline-card:hover {
+  border-color: var(--accent);
+}
+
+.left .timeline-card {
+  margin-right: 24px;
+}
+
+.right .timeline-card {
+  margin-left: 24px;
+}
+
+.timeline-empty {
+  /* placeholder for the opposite side */
+}
+
+.tl-title {
+  font-size: 17px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 6px;
+}
+
+.tl-company {
+  font-size: 15px;
+  color: var(--accent);
+  margin-bottom: 16px;
+}
+
+.tl-list {
+  list-style: none;
+  padding: 0;
+}
+
+.tl-list li {
+  color: var(--text-secondary);
+  font-size: 14px;
+  padding: 6px 0 6px 18px;
+  border-top: 1px solid var(--border);
+  position: relative;
+  line-height: 1.6;
+}
+
+.tl-list li::before {
+  content: '▸';
+  color: var(--accent);
+  position: absolute;
+  left: 0;
+}
