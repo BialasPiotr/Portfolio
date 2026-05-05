@@ -16,7 +16,7 @@ export default function Navbar() {
   return (
     <nav className={`navbar ${scrolled ? 'scrolled' : ''}`}>
       <div className="navbar-inner">
-        <a href="#hero" className="logo">&lt;Peter /&gt;</a>
+        <a href="#hero" className="logo">&lt;Piotr /&gt;</a>
 
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
           <li><a href="#about" onClick={closeMenu}>About</a></li>

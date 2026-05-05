@@ -1,5 +1,5 @@
 export const about = {
-  name: 'Peter Bialas',
+  name: 'Piotr Białas',
   title: 'Backend Software Engineer',
   location: 'Gdańsk',
   email: 'bialas.piotrek@outlook.com',

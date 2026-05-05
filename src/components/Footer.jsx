@@ -5,7 +5,7 @@ export default function Footer() {
 
   return (
     <footer className="footer">
-      <p>© {year} Peter Bialas. All rights reserved.</p>
+      <p>© {year} Piotr Białas. All rights reserved.</p>
     </footer>
   )
 }

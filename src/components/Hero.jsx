@@ -41,7 +41,7 @@ export default function Hero() {
     <section id="hero">
       <div className="hero-content">
         <p className="hero-greeting">Hi, my name is</p>
-        <h1 className="hero-name">Peter Bialas.</h1>
+        <h1 className="hero-name">Piotr Białas.</h1>
         <h2 className="hero-subtitle">
           I build <span className="hero-typed">{displayed}<span className="cursor">|</span></span>
         </h2>
