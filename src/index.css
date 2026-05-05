@@ -96,6 +96,17 @@ section {
   flex-shrink: 0;
 }
 
+@media (max-width: 640px) {
+  .card {
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .card-right {
+    text-align: left;
+  }
+}
+
 .badge {
   display: inline-block;
   background-color: var(--accent-dim);

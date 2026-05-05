@@ -1,6 +1,6 @@
-# Portfolio — Peter Bialas
+# Portfolio — Piotr Białas
 
-A personal portfolio website for Peter Bialas, a Backend Software Engineer based in Gdańsk. Built to present professional experience, skills, and contact information in a clean, developer-themed interface.
+A personal portfolio website for Piotr Białas, a Backend Software Engineer based in Gdańsk. Built to present professional experience, skills, and contact information in a clean, developer-themed interface.
 
 ## Purpose
 
